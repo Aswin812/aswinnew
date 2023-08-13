@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container{
+    width: 95%;
+    height: 100%;
+    background-color: #0D95EF;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.box-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 28px;
+    padding: 0 50px 0 75px;
+    color: white;
+    margin: 0;
+}
+
+.child-1{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.box-1 select{
+    background-color: #0D95EF;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.box-1 .child-2{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0 50px;
+    column-gap: 15px;    
+}
+.box-1 .button-1{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: gray;
+    font-size: 12px;
+}
+
+.box-1 .button-2{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #4bb2f7;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.box-2{
+    display: flex;
+    column-gap: 150px;
+    padding: 40px 100px;
+}
+
+.box-2 .child-1{
+    display: flex;
+    padding: 50px 0;
+    flex-direction: column;
+    width: 320px;
+    row-gap: 15px;
+    color: white;
+}
+
+.box-2 .child-1 h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+.box-2 .child-1 p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box-2 .child-2{
+    display: flex;
+    column-gap: 15px;    
+    width: 100%;
+}
+
+.box-2 .child-2 .button-1{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FD4D7C;
+    color: white;
+    font-weight: bold;
+}
+
+.box-2 .child-2 .button-2{
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #0D95EF;
+    font-weight: bold;
+}
+
+.box-2 img{
+    width: 550px;
+    height: 400px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
