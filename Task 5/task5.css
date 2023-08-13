@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+}
+
+.parent{
+    height: 225px;
+    width: 100%;
+    background-color: #043C89;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    color: #043C89;
+    margin: 70px auto;
+    border-radius: 50%;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 22px;
+    align-items: center;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+p{
+    margin: 15px auto;
+    color: gray;
+    font-weight: bold;
+}
+
+.link-1{
+    color: #005bd3;
+    cursor: pointer;
+}
+
+.box-1{
+    height: 100px;
+    width: 80%;
+    border: 3px solid red;
+    margin: 10px auto;
+    margin-bottom: 0px;
+}
+
+.input{
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-left: 10px;
+    width: 90%;
+}
+
+.box-2{
+    width: 80%;
+    height: 55px;
+    border: 3px solid red;
+    margin: 10px auto;
+}
+
+.button-1{
+    width: 97%;
+    height: 38px;
+    margin: 5px 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1A78F4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}  
+
+.link-2{
+    color: #1A78F4;
+    margin: 5px auto;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.line{
+    margin-top: 35px;
+    text-align: center;
+    position: relative;
+    color: gray;
+}
+
+.line::before{
+    background-color: gray;
+    width: 150px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30px;
+}
+
+.line::after{
+    background-color: gray;
+    width: 150px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: absolute;
+    right: 35px;
+    top: 50%;
+}
+
+.button-2{
+    width: 70%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #339F4A;
+    border: none;
+    margin-top: 35px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.container{
+    background-color: #C48188;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #6e5025;
+}
+
+.box-1{
+    width: 675px;
+    margin: 20px;
+    height: 165px;
+}
+
+legend{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(97, 2, 2);
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    margin: 3px;
+    outline: none;
+}
+
+.td-1{
+    padding-left: 40px;   
+    font-weight: bold;
+    text-align: right;
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+.box-2{
+    height: 125px;
+    width: 675px;
+    margin: 20px;
+}
+
+.td-2{
+    padding-left: 8px;
+    font-weight: bold;
+    text-align: right;
+    font-family: 'lato';
+    font-size: 18px;
+}
+
+.box-3{
+    text-align: right;
+    width: 700px;
+}
+
+button{
+    margin-top: 30px;
+    font-size: 20px;
+    height: 35px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

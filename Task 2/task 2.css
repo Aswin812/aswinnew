@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(38, 73, 230);
+}
+.container{
+    width: 450px;
+    height: 550px;
+    background-color: rgb(215, 184, 255);
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: 15px;
+    font-size: 12px;
+    line-height: 25px;
+    
+}
+.parent{
+    text-align: center;
+
+}
+select{
+    width: 440px;
+    border: none;
+}
+textarea{
+    width: 440px;
+    border: none;
+}
+.container-text{
+    width: 440px;
+    border: none;
+}
+.parent-save{
+    background-color: rgb(243, 78, 12);
+    color: white;
+    border: none;
+    height: 25px;
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+.parent-cancel{
+    background-color: rgb(92, 91, 91);
+    border: none;
+    height: 25px;
+    width: 70px;
+    border-radius: 10%;
+    color: white;
+}
+h3{
+    font-family: candara;
+}
+
+
+
